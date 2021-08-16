@@ -12,7 +12,7 @@
                   <p></p>
                   <p class="index-name">私、Kyomotoiです ∠(･`_´･ )</p>
                   <p>
-                    一名未来的Developer，经常在 <a href="https://github.com/Kyomotoi">GitHub</a> 上提交代码，目前致力于维护个人项目<br>比如：<a href="https://github.com/Kyomotoi/ATRI">ATRI</a>、<a href="https://github.com/Kyomotoi/EffectivePlugin">EffectivePlugin</a>。此外，还有一个Furry repo：<a href="https://github.com/Kyomotoi/AnimeThesaurus">AnimeThesaurus</a><br>
+                    一名未来的Developer，经常在 <a href="https://github.com/Kyomotoi">GitHub</a> 上提交代码，目前致力于维护个人项目<br>比如：<a href="https://github.com/Kyomotoi/ATRI">ATRI</a>、<a href="https://github.com/Kyomotoi/go-ATRI">go-ATRI</a>、<a href="https://github.com/Kyomotoi/EffectivePlugin">EffectivePlugin</a>。此外，还有一个Funny repo：<a href="https://github.com/Kyomotoi/AnimeThesaurus">AnimeThesaurus</a><br>
                   </p>
                   <p>
                     前后端均有所接触，也仅限接触。此外，你还可以在 <a href="https://twitter.com/Kyomotoi327">Twitter</a> 或 <a href="https://t.me/Kyomotoi">Telegram</a> 上找到我<br>
