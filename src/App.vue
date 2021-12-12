@@ -1,20 +1,13 @@
 <template>
   <v-app>
     <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!-- Cloudflare Web Analytics -->
       <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-HRB83DX73M"
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "b5862ffbd9a04f91826a4ca72c307847"}'
       ></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-          dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "G-HRB83DX73M");
-      </script>
+      <!-- End Cloudflare Web Analytics -->
     </head>
 
     <v-main class="lighten-3 mainApp">
