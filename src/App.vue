@@ -1,5 +1,21 @@
 <template>
   <v-app>
+    <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-HRB83DX73M"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-HRB83DX73M");
+      </script>
+    </head>
 
     <v-main class="lighten-3 mainApp">
       <v-container>
@@ -12,11 +28,25 @@
                   <p></p>
                   <p class="index-name">私、Kyomotoiです ∠(･`_´･ )</p>
                   <p>
-                    一名未来的Developer，经常在 <a href="https://github.com/Kyomotoi">GitHub</a> 上提交代码，目前致力于维护个人项目<br>比如：<a href="https://github.com/Kyomotoi/ATRI">ATRI</a>、<a href="https://github.com/Kyomotoi/go-ATRI">go-ATRI</a>、<a href="https://github.com/Kyomotoi/EffectivePlugin">EffectivePlugin</a>。此外，还有一个Funny repo：<a href="https://github.com/Kyomotoi/AnimeThesaurus">AnimeThesaurus</a><br>
+                    一名未来的Developer，经常在
+                    <a href="https://github.com/Kyomotoi">GitHub</a>
+                    上提交代码，目前致力于维护个人项目<br />比如：<a
+                      href="https://github.com/Kyomotoi/ATRI"
+                      >ATRI</a
+                    >、<a href="https://github.com/Kyomotoi/EffectivePlugin"
+                      >EffectivePlugin</a
+                    >。此外，还有一个Funny repo：<a
+                      href="https://github.com/Kyomotoi/AnimeThesaurus"
+                      >AnimeThesaurus</a
+                    ><br />
                   </p>
                   <p>
-                    前后端均有所接触，也仅限接触。此外，你还可以在 <a href="https://twitter.com/Kyomotoi327">Twitter</a> 或 <a href="https://t.me/Kyomotoi">Telegram</a> 上找到我<br>
-                    个人常用邮箱：<a href="mailto:Kyomotoiowo@gmail.com">Kyomotoiowo@gmail.com</a>
+                    前后端均有所接触，也仅限接触。此外，你还可以在
+                    <a href="https://twitter.com/Kyomotoi327">Twitter</a> 或
+                    <a href="https://t.me/Kyomotoi">Telegram</a> 上找到我<br />
+                    个人常用邮箱：<a href="mailto:Kyomotoiowo@gmail.com"
+                      >Kyomotoiowo@gmail.com</a
+                    >
                   </p>
                 </div>
               </v-lazy>
@@ -25,8 +55,7 @@
         </v-col>
 
         <div class="overflow-hidden">
-          <div class="mb-8">
-          </div>
+          <div class="mb-8"></div>
 
           <v-bottom-navigation
             v-model="value"
@@ -37,7 +66,7 @@
               <v-col class="text-center" cols="auto">
                 <span>
                   <v-icon>mdi-copyright</v-icon>
-                  Yours 
+                  Yours
                   <router-link to="/github" tag="v-text">
                     <strong>Kyomotoi</strong>
                   </router-link>
@@ -47,9 +76,14 @@
               <v-col class="text-center" cols="auto">
                 <span>
                   <v-icon>mdi-book-multiple</v-icon>
-                  <router-link to="/blog" tag="v-text">
-                    Blog
-                  </router-link>
+                  <router-link to="/blog" tag="v-text"> Blog </router-link>
+                </span>
+              </v-col>
+
+              <v-col class="text-center" cols="auto">
+                <span>
+                  <v-icon>mdi-server-network</v-icon>
+                  <router-link to="/api" tag="v-text"> Service </router-link>
                 </span>
               </v-col>
             </v-row>
@@ -57,17 +91,16 @@
         </div>
       </v-container>
     </v-main>
-
   </v-app>
 </template>
 
 <script>
 export default {
   mounted() {
-    document.title = "Kyomotoi!!!"
-  }
-}
-</script>>
+    document.title = "Kyomotoi!!!";
+  },
+};
+</script>
 
 <style>
 .index-info {

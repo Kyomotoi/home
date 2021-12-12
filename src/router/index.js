@@ -11,6 +11,10 @@ const routes = [
   {
     path: '/blog',
     beforeEnter() {location.href = 'https://blog.kyomotoi.moe/'}
+  },
+  {
+    path: '/api',
+    beforeEnter() {location.href = 'https://api.kyomotoi.moe/'},
   }
 ]
 
