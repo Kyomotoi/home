@@ -51,7 +51,7 @@
         <a class="serv-pximg" href="https://pximg.kyomotoi.moe/">Pixiv Proxy </a>
       </p>
       <p>
-        <a class="service-status" href="stat.kyomotoi.moe">服务状态查询 (Status)</a>
+        <a class="service-status" href="https://stat.kyomotoi.moe/">服务状态查询 (Status)</a>
       </p>
     </div>
 </template>
