@@ -1,4 +1,4 @@
-# kyomotoi-home
+# home
 
 ## Project setup
 ```
