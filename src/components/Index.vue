@@ -44,14 +44,14 @@
 
     <p class="services">个人服务 (Services)</p>
     <p>
-      <a class="serv-hibi" href="https://api.kimo.moe/">API (HibiAPI) </a>
+      <a class="serv-hibi" href="https://api.imki.moe/">API (HibiAPI) </a>
       |
-      <a class="serv-drive" href="https://drive.kimo.moe/"
+      <a class="serv-drive" href="https://drive.imki.moe/"
         >File Sharing (Onedrive)
       </a>
     </p>
     <p>
-      <a class="service-status" href="https://stat.kimo.moe/"
+      <a class="service-status" href="https://stat.imki.moe/"
         >服务状态查询 (Status)</a
       >
     </p>
